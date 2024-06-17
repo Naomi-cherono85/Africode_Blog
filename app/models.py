@@ -41,3 +41,6 @@ class Post(db.Model):
 
     def repr(self):
         return f"Post('{self.title}', '{self.date_posted}')"
+    
+# FIXME add a new model for comments
+
