@@ -13,19 +13,15 @@ This repository contains a Flask application with user registration, login, acco
 ## Setup
 
 1. **Clone the Repository**:
-   ```bash
    git clone https://github.com/yourusername/your-repository.git
 
 2.**Navigate to the Project Directory**:
-^^^bash
 cd your-repository
 
 3. **Install the Dependencies**:
-bash
 pip install -r requirements.txt
 
 5. **Set Up the Database**:
-bash
 flask db init
 flask db migrate
 flask db upgrade
